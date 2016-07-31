@@ -1,0 +1,130 @@
+/*
+Bread graphic by <a href="http://www.freepik.com/">Freepik</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>. Made with <a href="http://logomakr.com" title="Logo Maker">Logo Maker</a>
+*/
+
+
+
+
+body {
+  margin:0 auto;
+  padding:0;
+  background: #F5F5F5;
+  font-family: 'Abel', sans-serif;
+  width: 90%;
+  
+}
+footer {
+  text-align: center;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  margin: 0 auto;
+  display: inline;
+
+}
+.container_top {
+  border-bottom: 1px solid black;
+  margin-bottom: 100px;
+  margin: 1%;
+}
+
+.container_top  h1{
+  padding: 0px 0px 0px 60px;
+  float: left;
+
+}
+
+.container_top ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container_top li {
+    text-align: center;
+    float: right;
+    display: inline;
+    padding: 0.5em;
+}
+
+
+.container_top li a {
+    display: block;
+    color: Red;
+    text-align: center;
+    padding: 55px 14px;
+    text-decoration: none;
+    font-size: 300%;
+    font-family: 'Abel';
+}
+
+/* Change the link color to #42B4E6  on hover */
+.container_top li a:hover {
+    background-color: #42B4E6;
+}
+
+.container_body {
+  margin-top: 100px; 
+    max-width: 700px;
+    margin: 0 auto;
+  
+}
+
+.container_body h1 {
+  font-size: 50px;
+}
+/* ////////////////GALLERY CAROUSEL////////////////*/
+
+
+.content li{
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.active .buttons {
+
+  padding: 5px 0;
+  background: #eee;
+  text-align: center;
+  z-index: 10;
+  position: relative;
+
+}
+.carouselbox button {
+  border: none;
+  display: none;
+}
+.active button {
+  display: block;
+} 
+.offscreen {
+  position: absolute;
+  left: -2000px;
+}
+
+.active li {
+  position: absolute;
+  top: 130px;
+ 
+  opacity: 0;
+  transform: scale(0);
+  transition: 1s;
+}
+
+.active li.current {
+
+  top: 30px;
+  opacity: 1;
+  transform: scale(1);
+  transition: 1s;
+}
+
+/* ---- MAP */
+
+#map2 {
+        width: 50%;
+        margin: auto;
+
