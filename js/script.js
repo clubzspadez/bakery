@@ -1,13 +1,13 @@
 $(function(){
 	$('.container_box').hide().slideDown();
-	var $li = $('li');
+	var $li = $('#list1, #list2');
 	$li.hide().each(function(index){
 		$(this).delay(700 * index).fadeIn(700);
 	}); 
 });
 
 
-//MAP FOR Location
+//MAP FOR Location not being used 
 
 function init() {
   // the mapOptions object contains the information to initialise the map to how we want it
